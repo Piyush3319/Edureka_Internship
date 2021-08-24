@@ -1,0 +1,217 @@
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 480px;
+  background: url("image/home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-signup {
+  position: absolute;
+  right: 80px;
+  top: 27px;
+  word-spacing: 10px;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+
+.create {
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  border: solid 1px #ffffff;
+  padding: 10px 10px;
+  word-spacing: normal;
+  border-radius: 5px;
+}
+.logo-span {
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px 30px;
+  position: absolute;
+  left: 680px;
+  top: 81px;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb2929;
+  text-decoration: none;
+}
+.name-plate {
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  left: 356px;
+  top: 250px;
+  position: absolute;
+}
+.dropdown {
+  position: absolute;
+  width: 245px;
+  height: 40px;
+  background-color: #ffffff;
+  left: 355px;
+  top: 340px;
+}
+.dropdown-1 {
+  position: absolute;
+  width: 477px;
+  height: 40px;
+  background-color: #ffffff;
+  right: 345px;
+  top: 340px;
+}
+main {
+  padding: 10px 80px;
+}
+section {
+  position: relative;
+}
+.quick-search {
+  font-size: 30px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  left: 113px;
+  top: 45px;
+  padding-bottom: 5px;
+}
+
+.discovere {
+  left: 2px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+  position: absolute;
+}
+.quick-div {
+  display: inline-block;
+  position: absolute;
+}
+.quick-span {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  top: 60px;
+}
+.quick-span-2 {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  left: 420px;
+  top: 60px;
+}
+.quick-span-3 {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  left: 840px;
+  top: 60px;
+}
+
+.quick-div-1 {
+  display: inline-block;
+  position: absolute;
+}
+.quick-span-4 {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  top: 260px;
+}
+.quick-span-5 {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  left: 420px;
+  top: 260px;
+}
+.quick-span-6 {
+  width: 380px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  left: 840px;
+  top: 260px;
+}
+.image {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+.breakfast {
+  position: absolute;
+  width: 88px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  right: 98px;
+  top: 20px;
+}
+.breakfast-description {
+  position: absolute;
+  width: 137px;
+  height: 62px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+  top: 50px;
+  right: 50px;
+}

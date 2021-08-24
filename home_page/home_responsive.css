@@ -1,0 +1,129 @@
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.background-imag {
+  height: 480px;
+  background: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707),
+    url("image/home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-signup {
+  position: absolute;
+  right: 10%;
+  top: 27px;
+  word-spacing: 10px;
+}
+.login {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.create {
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  border: solid 1px #ffffff;
+  padding: 10px 10px;
+  word-spacing: normal;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+.logo-span {
+  border-radius: 50%;
+  background-color: #ffff;
+  padding: 10px 30px;
+  position: absolute;
+  right: 45%;
+  top: 81px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb2929;
+  text-decoration: none;
+}
+.name-plate {
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  left: auto;
+  top: 250px;
+  position: absolute;
+}
+.item {
+  width: 350px;
+  height: 150px;
+  box-shadow: 10px 10px 15px 0 red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.item-left {
+  display: inline-block;
+  width: 40%;
+}
+
+.item-right {
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.header {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+@media only screen and (max-width: 768px) {
+  .name-plate {
+    font-size: 30px;
+    left: 15%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    font-size: 70px;
+  }
+  .name-plate {
+    font-size: 36px;
+    left: 25%;
+  }
+}
